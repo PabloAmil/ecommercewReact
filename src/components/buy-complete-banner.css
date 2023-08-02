@@ -9,7 +9,9 @@
 }
 
 .banner {
-  width: 40%;
+  position: absolute;
+  top: 0;
+  width: 30vw;
   height: 40%;
   background-color: #fff;
   display: flex;

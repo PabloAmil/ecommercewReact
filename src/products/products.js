@@ -155,7 +155,7 @@ const products = [
     id: 17,
     name: 'coca-cola',
     price: 5,
-    img: 'https://cdn-3.expansion.mx/dims4/default/1b14363/2147483647/strip/true/crop/2096x1430+0+0/resize/1200x819!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F95%2F6c%2F722abfb544dcb4a46b9ca967a1ef%2Fistock-499925476.jpg',
+    img: 'https://e7.pngegg.com/pngimages/35/137/png-clipart-coca-cola-soda-can-coca-cola-soft-drink-safe-beverage-can-sprite-coke-technic-the-cocacola-company.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
@@ -164,7 +164,7 @@ const products = [
     id: 18,
     name: 'sprite',
     price: 5,
-    img: 'https://www.kcros.com/tienda/public/imagen/noticia/yataco-sprite-rebranding-1.jpg',
+    img: 'https://w1.pngwing.com/pngs/339/863/png-transparent-lemon-fizzy-drinks-sprite-sprite-zero-lemonlime-drink-carbonated-water-drink-mixer-12-oz.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
@@ -173,7 +173,7 @@ const products = [
     id: 19,
     name: 'coca-cola light',
     price: 5,
-    img: 'https://valsegura.com/wp-content/uploads/2016/02/cc-light-35cl.jpg',
+    img: 'https://e7.pngegg.com/pngimages/1022/242/png-clipart-coca-cola-light-can-coca-cola-fizzy-drinks-diet-coke-fanta-carbonated-water-coca-cola-food-cola.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
