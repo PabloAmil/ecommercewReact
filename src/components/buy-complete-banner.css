@@ -63,5 +63,7 @@ h3 {
 
   .banner {
     width: 90%;
+    position: absolute;
+    top: -15vh;
   }
 }
