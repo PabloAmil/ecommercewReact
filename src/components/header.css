@@ -4,6 +4,9 @@ a {
 }
 
 .header {
+  top: 0;
+  position: fixed;
+  z-index: 12;
   background-color: #000;
   width: 100vw;
   height: 15vh;
@@ -53,7 +56,7 @@ a {
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -63,9 +66,26 @@ a {
   cursor: pointer;
   color: #fff;
   display: none;
+  margin-left: -15%;
+}
+
+.cart-icon-container-responsive {
+  position: relative;
+  display: flex;
+  margin-right: -15%;
+}
+
+.cart-icon-responsive {
+  display: none;
+  font-size: 35px;
+  justify-content: end;
+  cursor: pointer;
+  color: #fff;
+  margin-right: -15%;
 }
 
 .counter {
+  right: -15px;
   height: 20px;
   width: 20px;
   background-color: red;
@@ -73,6 +93,20 @@ a {
   color: #fff;
   font-size: 15px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-responsive {
+  display: none;
+  position: absolute;
+  right: -15px;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
 }
@@ -109,6 +143,14 @@ a {
 
   .list-icon {
     display: inline-block;
+  }
+
+  .cart-icon-responsive {
+    display: inline-block;
+  }
+
+  .counter-responsive {
+    display: flex;
   }
 
   .list-icon-container {

@@ -1,5 +1,6 @@
 
 body {
+    margin-top: 15vh;
     background-image: url('../imgs/peakpx.jpg');
     background-size: repeat;  
     position: relative;

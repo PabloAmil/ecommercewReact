@@ -16,7 +16,6 @@ function Header() {
     getProductsQuantity(productsInCart);
   },[productsInCart])
   
-
   const displayMenu = () => {
     if (visible === true) {
       setVisible(false)
@@ -37,6 +36,21 @@ function Header() {
       </ul>
       <div className='list-icon-container'>
         <FaListAlt className='list-icon' onClick={displayMenu}/>
+        <div className='cart-icon-container-responsive'>
+          <Link to='/cart'>
+            <LuShoppingCart className='cart-icon-responsive'/>
+          </Link>
+          {
+          getProductsQuantity(productsInCart) > 0 &&
+          <div className='counter-responsive'>
+            <div className='number'>
+              {
+                getProductsQuantity(productsInCart)
+              }
+            </div>
+          </div>
+        }
+        </div>
       </div>
       <div className='cart-icon-container'>
         <Link to='/cart'>
@@ -56,7 +70,7 @@ function Header() {
     </div>
     <div>
       {
-        visible ? <ResponsiveMenu display={displayMenu}/> : <></>
+        visible === true && <ResponsiveMenu display={displayMenu}/> 
       }
     </div>
     </>

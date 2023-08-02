@@ -4,7 +4,6 @@ import './responsive-menu.css';
 import { CartContext } from '../context/cartContext';
 import { useContext } from "react";
 
-
 function ResponsiveMenu(props) {
 
   const  { productsInCart, getProductsQuantity } = useContext(CartContext);
@@ -12,8 +11,6 @@ function ResponsiveMenu(props) {
   useEffect(()=> {
     getProductsQuantity(productsInCart);
   },[productsInCart]);
-
-  
 
   return (
       <div className='menu-options'>
@@ -28,21 +25,8 @@ function ResponsiveMenu(props) {
           <Link to='/cart' >
             <li>CART</li>
           </Link>
-            <div>
-              {
-                getProductsQuantity(productsInCart) > 0 &&
-                <div className='counter'>
-                  <div className='number'>
-                    {
-                      getProductsQuantity(productsInCart)
-                    }
-                  </div>
-                </div>
-              }
-            </div>
         </div>
       </ul>
-
     </div>
   )
 }
