@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ecommercewReact/static/css/main.e2b6c21d.css",
+    "main.js": "/ecommercewReact/static/js/main.6e84d258.js",
+    "static/js/787.70f4ed58.chunk.js": "/ecommercewReact/static/js/787.70f4ed58.chunk.js",
+    "static/media/peakpx.jpg": "/ecommercewReact/static/media/peakpx.c876af8d114a342fbd53.jpg",
+    "static/media/Soda-Transparent-Images.png": "/ecommercewReact/static/media/Soda-Transparent-Images.561d3ddc8629d298c041.png",
+    "static/media/Dominos-Pizza-Transparent-File.png": "/ecommercewReact/static/media/Dominos-Pizza-Transparent-File.0eb2b7df63b88b899af1.png",
+    "static/media/Pizza-Slice-PNG-Photos.png": "/ecommercewReact/static/media/Pizza-Slice-PNG-Photos.afb54d6e517414fb8c56.png",
+    "index.html": "/ecommercewReact/index.html",
+    "main.e2b6c21d.css.map": "/ecommercewReact/static/css/main.e2b6c21d.css.map",
+    "main.6e84d258.js.map": "/ecommercewReact/static/js/main.6e84d258.js.map",
+    "787.70f4ed58.chunk.js.map": "/ecommercewReact/static/js/787.70f4ed58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b6c21d.css",
+    "static/js/main.6e84d258.js"
+  ]
+}

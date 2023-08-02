@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://pabloamil.github.io/ecommercewReact/",
   "eslintConfig": {
     "extends": [
       "react-app",

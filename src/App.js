@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='App'>
       <CartProvider>
-        <BrowserRouter> 
+        <BrowserRouter basename='ecommercewReact/'> 
           <Header />
           <Routes>
             <Route path='/' element={<Main />}/>
