@@ -1,0 +1,101 @@
+.cart-container {
+  position: relative;
+  height: auto;
+  width: 100vw;
+  color: #fff;
+  font-size: larger;
+}
+
+.product-in-cart > div {
+  text-align: center;
+}
+
+.purchase-display {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.buy {
+  width: auto;
+  font-size: 35px ;
+  background-color: #24EE36;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.buy:hover {
+  background-color: #2ca736;
+  cursor: pointer;
+  animation: beat 1s infinite; 
+}
+
+.conditional-banner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  position: relative;
+  margin: 0;
+}
+
+.conditional-banner h1 {
+  font-family: 'Lobster', cursive;
+}
+
+.conditional-banner a {
+    color: #fff;
+}
+
+.purchase-done {
+  position: absolute;
+  top: 30vh;
+  bottom: 20vh;
+  width: 100vw;
+  height: 50vw;
+  background-color: #fff;
+}
+
+@keyframes beat {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+@media (max-width: 767px) {
+
+  .buy {
+    width: 40vw;
+    height: 10vh;
+    font-size: 20px ;
+  }
+
+  .conditional-banner {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+  }
+}

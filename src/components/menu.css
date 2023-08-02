@@ -1,0 +1,33 @@
+
+.menu-title {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    position: relative;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.menu-container {
+
+    width: 100vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .menu-title {
+        height: 15vh;
+    }
+    
+}
