@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.296a063f.css",
+    "main.js": "/static/js/main.8cd4c70c.js",
+    "static/js/787.70f4ed58.chunk.js": "/static/js/787.70f4ed58.chunk.js",
+    "static/media/peakpx.jpg": "/static/media/peakpx.c876af8d114a342fbd53.jpg",
+    "static/media/Soda-Transparent-Images.png": "/static/media/Soda-Transparent-Images.561d3ddc8629d298c041.png",
+    "static/media/Dominos-Pizza-Transparent-File.png": "/static/media/Dominos-Pizza-Transparent-File.0eb2b7df63b88b899af1.png",
+    "static/media/Pizza-Slice-PNG-Photos.png": "/static/media/Pizza-Slice-PNG-Photos.afb54d6e517414fb8c56.png",
+    "index.html": "/index.html",
+    "main.296a063f.css.map": "/static/css/main.296a063f.css.map",
+    "main.8cd4c70c.js.map": "/static/js/main.8cd4c70c.js.map",
+    "787.70f4ed58.chunk.js.map": "/static/js/787.70f4ed58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.296a063f.css",
+    "static/js/main.8cd4c70c.js"
+  ]
+}
