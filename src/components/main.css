@@ -1,93 +1,107 @@
 
 body {
-    margin-top: 15vh;
-    background-image: url('../imgs/peakpx.jpg');
-    background-size: repeat;  
-    position: relative;
-    overflow-x: hidden;
-    z-index: 10;
+  margin-top: 15vh;
+  background-image: url('../imgs/peakpx.jpg');
+  background-size: repeat;  
+  position: relative;
+  overflow-x: hidden;
+  z-index: 10;
 }
 
 .img-inside-1 {
-    width: 50vw;
-    height: 50vw;
-    position: absolute;
-    background-image: url('../imgs/Dominos-Pizza-Transparent-File.png');
-    background-repeat: no-repeat;
-    right: 0;
-    top: 50vh;
+  width: 50vw;
+  height: 50vw;
+  position: absolute;
+  background-image: url('../imgs/Dominos-Pizza-Transparent-File.png');
+  background-repeat: no-repeat;
+  right: 0;
+  top: 50vh;
 }
 
 .img-inside-2 {
-    width: 60vw;
-    height: 60vw;
-    position: absolute;
-    background-image: url('../imgs/Pizza-Slice-PNG-Photos.png');
-    background-repeat: no-repeat;
-    left: -480px;
-    top: 100vh;
-    transform: scaleX(-1);
+  width: 60vw;
+  height: 60vw;
+  position: absolute;
+  background-image: url('../imgs/Pizza-Slice-PNG-Photos.png');
+  background-repeat: no-repeat;
+  left: -480px;
+  top: 100vh;
+  transform: scaleX(-1);
 }
 
 
 .img-inside-3 {
-    width: 70vw;
-    height: 60vw;
-    position: absolute;
-    background-image: url('../imgs/Soda-Transparent-Images.png');
-    background-repeat: no-repeat;
-    right: -500px;
-    top: 220vh;
-    z-index: 2;
-    overflow-x: hidden;
-    
+  width: 70vw;
+  height: 60vw;
+  position: absolute;
+  background-image: url('../imgs/Soda-Transparent-Images.png');
+  background-repeat: no-repeat;
+  right: -500px;
+  top: 220vh;
+  z-index: 2;
+  overflow-x: hidden;
 }
 
 .welcome-board {
-    height: 25vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 2em;
-    margin: 0;
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+  margin: 0;
 }
 
 .card-displayer {
 
-    width: 100vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 15vw;
+  width: 100vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15vw;
+}
+
+.drink-card-displayer {
+  width: 100vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15vw;
+}
+
+.drink-card-displayer .card-img img {
+  object-fit: contain;
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .drink-section-title {
-    height: 25vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    position: relative;
-    margin: 0;
-    font-family: 'Lobster', cursive;
-    z-index: 10;
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  position: relative;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  z-index: 10;
 }
 
 .subtitle {
@@ -96,24 +110,23 @@ h2 {
 
 @media screen and (max-width: 767px) {
 
-    body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-
-    h1 {
-        margin: none;
-    }
-    .img-inside-1 {
-        height: 0;
-        width: 0;
-    }
-    .img-inside-2 {   
-        height: 0;
-        width: 0;
-    }
-    .img-inside-3 {   
-        height: 0;
-        width: 0;
-    }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  h1 {
+    margin: none;
+  }
+  .img-inside-1 {
+    height: 0;
+    width: 0;
+  }
+  .img-inside-2 {   
+    height: 0;
+    width: 0;
+}
+  .img-inside-3 {   
+    height: 0;
+    width: 0;
+  }
 }

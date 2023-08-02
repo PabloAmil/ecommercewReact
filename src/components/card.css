@@ -19,6 +19,7 @@
   width: 100%;
   height: 17vh;
   border-radius: 5%;
+  object-fit: cover;
 }
 
 .card-data {

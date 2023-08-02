@@ -153,27 +153,27 @@ const products = [
   },
   {
     id: 17,
-    name: 'coca-cola',
-    price: 5,
-    img: 'https://e7.pngegg.com/pngimages/35/137/png-clipart-coca-cola-soda-can-coca-cola-soft-drink-safe-beverage-can-sprite-coke-technic-the-cocacola-company.png',
+    name: 'coke 1',
+    price: 500,
+    img: 'https://www.supermercadodiez.cl/image/cache/catalog/2023/ABRIL/normal%20coca-500x500.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
   },
   {
     id: 18,
-    name: 'sprite',
-    price: 5,
-    img: 'https://w1.pngwing.com/pngs/339/863/png-transparent-lemon-fizzy-drinks-sprite-sprite-zero-lemonlime-drink-carbonated-water-drink-mixer-12-oz.png',
+    name: 'coke 2',
+    price: 500,
+    img: 'https://www.supermercadodiez.cl/image/cache/catalog/2023/ABRIL/normal%20coca-500x500.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
   },
   {
     id: 19,
-    name: 'coca-cola light',
-    price: 5,
-    img: 'https://e7.pngegg.com/pngimages/1022/242/png-clipart-coca-cola-light-can-coca-cola-fizzy-drinks-diet-coke-fanta-carbonated-water-coca-cola-food-cola.png',
+    name: 'coke 3',
+    price: 500,
+    img: 'https://www.supermercadodiez.cl/image/cache/catalog/2023/ABRIL/normal%20coca-500x500.png',
     quantity: 1,
     drink: true,
     description: 'Quench your thirst with a delightful soda fizz with a refreshing citrus twist. A sip of pure bliss in every pop!'
